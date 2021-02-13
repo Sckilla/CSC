@@ -1,0 +1,39 @@
+﻿body {
+}
+ul, ol {/*le quita el estilo de lista (los puntitos)*/
+    list-style: none;
+}
+.nav { /*para establecer el estilo de la cinta de opciones*/
+    background-color: #920000;
+    width: 920px; /*Le establecemos un ancho*/
+    margin: 0 auto;
+    height: 45px;
+}
+.nav > li {/*organiza las opciones en la cinta como cajas*/
+	float:left;
+    border-right:1px solid #c51414;
+    width: 152px;
+}
+.nav li a {/*Da el estilo de los botones*/
+	background-color:#920000;
+	color:#ffffff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+    width: 130px;
+    height: 25px;
+}
+.nav li a:hover {/*cambia el color del boton al pasar el puntero*/
+	background-color:#2b2b2b;
+}
+.nav li ul {/*Oculta y acomoda las opciones secundarias desplegadas*/
+	display:none;
+	position: absolute;
+	min-width:140px;          
+}
+.nav li:hover > ul {/*le da propiedades de bloque a los botones*/
+	display:block;
+}
+.nav li ul li {
+	position:relative;
+}

@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mpEmpleado.master.cs" Inherits="mpEmpleado" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/sthFuentes.css" rel="stylesheet" />
+    <link href="css/sthMenu7.css" rel="stylesheet" />
+    <link href="css/sthCaja.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table style=" text-align: center; margin:0 auto; width:100%">
+            <tr>
+                <td style="width:350px">
+                    <div>
+                        <img src="Imagenes/sllogo.jpg" style="height: 200px; width: 200px" />
+                    </div>
+                </td>
+                <td >
+                    <div class="SLCAFE" >
+                        SANLO'S CAFÉ
+                    </div>
+                    <div class="Slogan">
+                        Nada mejor que una taza de café...<br />
+                        <br />
+                        <br />
+                    </div>
+                    <div class="Herramienta">
+                        Buscar:&nbsp; 
+                    <asp:TextBox ID="txtBuscarPr" runat="server" Height="16px" Width="157px"></asp:TextBox>
+                        &nbsp; <asp:ImageButton ID="imgbBuscar" runat="server" ImageUrl="~/Imagenes/lupa.png" style="width:23px; height:23px" OnClick="imgbBuscar_Click"/>
+                    </div>
+                </td>
+                <td style="width:350px">
+                    <asp:Label class="NombreUsu" style="font-size: 25px; font-weight: 100" ID="lblUsuario" runat="server" Text=""></asp:Label>
+                    <br />
+                    <br />
+                    <asp:Label class="Rol" style="color:#808080" ID="lblRol" runat="server" Text=""></asp:Label>
+                    <br />
+                    <br />
+                    <div class="Botones">
+                        <ul class="nav" style="width:30px; height:30px; margin:0 auto; background-color: #000000">
+                        <li style="width: 30px; height:30px; margin:0 auto"><asp:Image ID="imgConfig" runat="server" ImageUrl="~/Imagenes/config.png" style="width:30px; height:30px; margin:0 auto;"/>
+                            <ul>
+                            <li><a href="dflCuentaEmpleado.aspx" style="width:115px; height:45px">MI INFORMACIÓN</a></li>
+                            <li><a href="dflMenuVentasE.aspx" style="width:115px; height:45px">MIS COMPRAS</a></li>
+                            <li><a href="dflDestructorSesion.aspx" style="width:115px; height:45px">CERRAR SESIÓN</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <div>
+
+        </div>
+
+        <div class="Botones" style=" text-align: center; background-color: #920000; margin:0 auto; width:100%" >
+            <nav >
+                <ul class="nav" >
+                    <li><a href="dflInicioE.aspx">INICIO</a></li>
+                    <li><a href="dflCatalogoPE.aspx?cve=0&pag=1">PRODUCTOS</a>
+                        <ul>
+                            <li><a href="dflCatalogoPE.aspx?cve=2&pag=1">CONSUMIBLES</a></li>
+                            <li><a href="dflCatalogoPE.aspx?cve=1&pag=1">ACCESORIOS</a></li>
+                            <li><a href="dflCatalogoPE.aspx?cve=3&pag=1">COCINA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="dflNovedadesE.aspx">NOVEDADES</a></li>
+                    <li><a href="dflOfertasE.aspx?cve=0&pag=1">OFERTAS</a></li>
+                    <li><a href="dflCarritoE.aspx">CARRITO</a></li>
+                    <li><a href="dflEditarProdE.aspx">EDITAR</a></li>
+                    <li><a href="dflSCE.aspx">SANLO'S CAFÉ</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div style="background-color: #dddddd; width:1200px; margin:0 auto;">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <div style="text-align: center;" class="Derechos">
+            
+            <br />
+            
+            Derechos reservados @ Sanlo's Café S.A de C.V.
+            <script>document.write(new Date().getFullYear())</script>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿body {
+}
+.caja {
+    width: auto; /*ancho del 50% del espacio*/
+    height: 20px; /*alto de 20 pixeles*/
+    background: #920000;
+    color: #fff;
+    font-family: 'Tw Cen MT';
+    text-decoration: none;
+    padding: 2px; /*márgenes de 30px hacia arriba, abajo e izquierda internos en el control*/
+    margin: 0 auto;
+    border: 1px solid #000; /*bordes en el control, solido de color negro*/
+}
+
+.boton {
+    width: auto;
+    text-decoration: none;
+    margin: 0 auto;
+    display: inline-block;
+    background: #920000;
+    color: #fff;
+    font-family: 'Tw Cen MT';
+    padding: 7px 10px;
+}
+
+    .boton:hover {
+        background: #710606;
+    }
+
+    .boton:active {
+        background: #510303;
+    }

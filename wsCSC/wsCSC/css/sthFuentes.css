@@ -1,0 +1,166 @@
+﻿    body {
+        color: #000000;
+        Background: #000000;
+    }
+    .SLCAFE {
+        color: #ffffff;
+        font-family: 'Maiandra GD';
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .Slogan {
+        color: #ffffff;
+        font-family: 'Tw Cen MT';
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .NombreUsu {
+        color: #920101;
+        font-family: 'Tw Cen MT';
+        font-size: 25px;
+        font-weight: 100;
+        font-style: normal;
+        text-decoration: none;
+    }
+    .Rol {
+        color: #808080;
+        font-family: 'Tw Cen MT';
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        text-decoration: none;
+    }
+    .TituloPaginaB {
+        color: #ffffff;
+        font-family: 'Tw Cen MT';
+        font-size: 25px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .TituloPaginaN {
+        color: #000000;
+        font-family: 'Tw Cen MT';
+        font-size: 25px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .TituloProd{
+        color: #000000;
+        font-family: 'Tw Cen MT';
+        font-size: 28px;
+        font-weight:bold;
+        text-align: center;
+    }
+    .IndiCampos {
+        color: #ffffff;
+        font-family: 'Tw Cen MT';
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        text-decoration: none;
+    }
+    .IndiCamposN {
+        color: #000000;
+        font-family: 'Tw Cen MT';
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        text-decoration: none;
+    }
+    .txt {
+        background-color: #ffffff;
+        color: #000000;
+        font-family: 'Tw Cen MT';
+        font-size: 16px;
+        font-weight: 100;
+    }
+    .Herramienta {
+        color: #ffffff;
+        font-family: 'Tw Cen MT';
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .Botones {
+        color: #ffffff;
+        font-family: 'Tw Cen MT';
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .Link {
+        color: #920101;
+        font-family: 'Tw Cen MT';
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        text-decoration: none;
+    }
+    .LinkProd {
+        color: #717171;
+        font-family: 'Tw Cen MT';
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        text-decoration: none;
+    }
+    .DatosProd {
+        color: #717171;
+        font-family: 'Tw Cen MT';
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        text-decoration: none;
+    }
+    .Derechos {
+        color: #ffffff;
+        font-family: 'Tw Cen MT';
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .Tablas {
+        color: #000000;
+        font-family: 'Tw Cen MT';
+        font-size: 18px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .Descripcion {
+        color: #000;
+        font-family: 'Tw Cen MT';
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        text-decoration: none;
+    }
+    .PrecioG {
+        color: #920101;
+        font-family: 'Tw Cen MT';
+        font-size: 25px;
+        font-weight: bold;
+        font-style: normal;
+        text-decoration: none;
+    }
+    .Preciop {
+        color: #920101;
+        font-family: 'Tw Cen MT';
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        text-decoration: none;
+    }
+    .PrecioR {
+        color: #920101;
+        font-family: 'Tw Cen MT';
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        text-decoration:line-through;
+    }
+    .Info {
+        color: #000000;
+        font-family: 'Tw Cen MT';
+        font-size: 22px;
+        font-weight: 100;
+        text-align: center;
+    }
